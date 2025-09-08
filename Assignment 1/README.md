@@ -1,6 +1,3 @@
-# TuteDude-Python
-# Python Course by TuteDude
-
 ## Task 1: Perform Basic Mathematical Operations
 
 **Problem Statement:**  
