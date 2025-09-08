@@ -22,4 +22,5 @@ Write a Python program that:
 
 **Expected Output:**  
 The program should return:
+
 ![alt text](Task2.png)
