@@ -14,7 +14,7 @@ Write a Python program that does the following:
 **Expected Output:**  
 The output should include the result of each operation performed, for example:  
 
-![alt text](Task1Output.png)
+![alt text](Task1.png)
 
 
 ---
@@ -31,5 +31,5 @@ Write a Python program that:
 **Expected Output:**  
 The program should output a greeting like:  
 
-![alt text](Task2Output.png)
+![alt text](Task2.png)
 
