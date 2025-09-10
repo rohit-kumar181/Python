@@ -8,6 +8,7 @@ Write a Python program that:
 
 **Expected Output:**  
 For example, if the function is called with 5, it should return:
+
 ![alt text](Task1.png)
 
 ---
@@ -25,4 +26,5 @@ Write a Python program that:
 
 **Expected Output:**  
 For example, if the user enters 25, the output should be:
+
 ![alt text](Task2.png)
