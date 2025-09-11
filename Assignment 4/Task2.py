@@ -17,4 +17,4 @@ try:
         print(line.strip())
     file.close()
 except FileNotFoundError:
-    print("Error: The file 'sample.txt' was not found.")
+    print("Error: The file 'output.txt' was not found.")
