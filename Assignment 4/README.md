@@ -8,8 +8,11 @@ Write a Python program that:
 
 ## Expected Output
 - If the file exists:
+
 ![alt text](Task1a.png)
+
 - If the file does not exist:
+
 ![alt text](Task1b.png)
 
 ---
@@ -24,4 +27,5 @@ Write a Python program that:
 
 ## Expected Output
 - For example, the output should be:
+
 ![alt text](Task2.png)
