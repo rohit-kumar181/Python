@@ -1,1 +1,9 @@
+ 
+ # Ignore all .zip files
  *.zip
+
+ # Ignore all .pptx files
+ *.pptx
+
+ # Ignore all .pdf files
+ *.pdf
