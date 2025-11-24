@@ -4,7 +4,7 @@ def  table():
     conn = psycopg2.connect(dbname="postgres",user="postgres",password="admin",host="localhost",port="5432")
 
     cursor = conn.cursor()
-    cursor.execute('''create table emmployees(Name Text, ID Int, Age Int);''')
+    cursor.execute('''create table employees(Name Text, ID Int, Age Int);''')
     print('Table Created Successfully')
 
     conn.commit()
@@ -19,7 +19,7 @@ def  data():
     id = input("Enter ID number of the employee:: ")
     age = input("Enter age of the employee: ")
 
-    query = '''insert into emmployees(Name, ID, Age) values(%s,%s,%s);'''
+    query = '''insert into employees(Name, ID, Age) values(%s,%s,%s);'''
 
     cursor.execute(query, (name,id,age))
     print('Data Added Successfully')
@@ -33,7 +33,7 @@ data()
     conn = psycopg2.connect(dbname="postgres",user="postgres",password="admin",host="localhost",port="5432")
 
     cursor = conn.cursor()
-    cursor.execute('''select * from emmployees;''')
+    cursor.execute('''select * from employees;''')
     show = cursor.fetchone()
     print(show[0])
 
